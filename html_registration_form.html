@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registration Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A registration form using only HTML. When registering for any website, whether it's for an email account, a social media platform, or even this bootcamp, you are submitting a form! ">
+    </head>
+    <body>
+        <form method="POST">
+            <h1>My Registration Form</h1>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+            <br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <label for="passwordConfirm">PW Confirm:</label>
+            <input type="password" id="passwordConfirm" name="passwordConfirm">
+            <br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <br>
+            <input type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female">
+            <label for="male">Female</label>
+            <input type="radio" other="gender" value="male">
+            <label for="male">Other</label>
+            <p>A short description about yourself:</p>
+            <textarea name="description"></textarea>
+            <br>
+            <label for="language">Favorite Language:</label>
+            <select name="gender">
+                <option value="javascript">Javascript</option>
+                <option value="css">CSS</option>
+                <option value="html">HTML</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

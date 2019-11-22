@@ -10,6 +10,5 @@ Your HTML should contain the following tags:
 - date
 - radio
 - submit
-- <textarea>
 - <select>
-  
+- <textarea>
